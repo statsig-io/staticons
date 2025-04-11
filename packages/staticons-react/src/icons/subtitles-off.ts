@@ -1,0 +1,33 @@
+
+import { createElement, forwardRef } from "react";
+import { IconNode, StaticonProps } from '../types';
+import Icon from '../Icon';
+import { mergeClasses } from '../mergeClasses';
+
+export const __iconNode: IconNode = [["path",{"fill":"#000","fill-rule":"evenodd","d":"M4.782 3.721a.75.75 0 0 0-1.08 1.04A2.25 2.25 0 0 0 2.5 6.753l.006 10.497a2.25 2.25 0 0 0 2.25 2.249h13.681l.78.78a.75.75 0 0 0 1.081-1.04 2.25 2.25 0 0 0 1.2-1.992L21.492 6.75a2.25 2.25 0 0 0-2.25-2.249H5.562l-.78-.78Zm.159 2.28h-.19a.75.75 0 0 0-.75.75l.006 10.498c0 .414.336.75.75.75h12.181L15.44 16.5h-.2a.75.75 0 0 1-.73-.929L12.44 13.5h-1.206a.75.75 0 0 1-.251-1.457L4.94 6.001ZM13.06 12 7.062 6.001h12.18a.75.75 0 0 1 .75.75L20 17.248a.75.75 0 0 1-.75.75h-.19L17.561 16.5h.173a.75.75 0 0 0 0-1.5h-1.673l-1.5-1.5h3.174a.75.75 0 0 0 0-1.5H13.06Zm-7.561.75a.75.75 0 0 1 .75-.75h1.998a.75.75 0 0 1 0 1.5H6.25a.75.75 0 0 1-.75-.75Zm6.747 3.75a.75.75 0 0 0 0-1.5H6.25a.75.75 0 0 0 0 1.5h5.997Z","clip-rule":"evenodd"}]]
+
+/**
+ * @component @name SubtitlesOff
+ * @description Staticon SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPiAgPHBhdGggZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNC43ODIgMy43MjFhLjc1Ljc1IDAgMCAwLTEuMDggMS4wNEEyLjI1IDIuMjUgMCAwIDAgMi41IDYuNzUzbC4wMDYgMTAuNDk3YTIuMjUgMi4yNSAwIDAgMCAyLjI1IDIuMjQ5aDEzLjY4MWwuNzguNzhhLjc1Ljc1IDAgMCAwIDEuMDgxLTEuMDQgMi4yNSAyLjI1IDAgMCAwIDEuMi0xLjk5MkwyMS40OTIgNi43NWEyLjI1IDIuMjUgMCAwIDAtMi4yNS0yLjI0OUg1LjU2MmwtLjc4LS43OFptLjE1OSAyLjI4aC0uMTlhLjc1Ljc1IDAgMCAwLS43NS43NWwuMDA2IDEwLjQ5OGMwIC40MTQuMzM2Ljc1Ljc1Ljc1aDEyLjE4MUwxNS40NCAxNi41aC0uMmEuNzUuNzUgMCAwIDEtLjczLS45MjlMMTIuNDQgMTMuNWgtMS4yMDZhLjc1Ljc1IDAgMCAxLS4yNTEtMS40NTdMNC45NCA2LjAwMVpNMTMuMDYgMTIgNy4wNjIgNi4wMDFoMTIuMThhLjc1Ljc1IDAgMCAxIC43NS43NUwyMCAxNy4yNDhhLjc1Ljc1IDAgMCAxLS43NS43NWgtLjE5TDE3LjU2MSAxNi41aC4xNzNhLjc1Ljc1IDAgMCAwIDAtMS41aC0xLjY3M2wtMS41LTEuNWgzLjE3NGEuNzUuNzUgMCAwIDAgMC0xLjVIMTMuMDZabS03LjU2MS43NWEuNzUuNzUgMCAwIDEgLjc1LS43NWgxLjk5OGEuNzUuNzUgMCAwIDEgMCAxLjVINi4yNWEuNzUuNzUgMCAwIDEtLjc1LS43NVptNi43NDcgMy43NWEuNzUuNzUgMCAwIDAgMC0xLjVINi4yNWEuNzUuNzUgMCAwIDAgMCAxLjVoNS45OTdaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+Cg==)
+ *
+ * @param {Object} props - Staticons props and any valid SVG attribute
+ * @returns {JSX.Element} JSX Element
+ */
+const SubtitlesOff = forwardRef<SVGSVGElement, StaticonProps>(
+  ({ className, ...props }, ref) =>
+    createElement(Icon, {
+      ref,
+      iconNode: __iconNode,
+      className: mergeClasses(
+        'staticon-subtitles-off',
+        'staticon-SubtitlesOff',
+        className
+      ),
+      ...props,
+    })
+);
+SubtitlesOff.displayName = 'SubtitlesOff'
+
+export default SubtitlesOff;

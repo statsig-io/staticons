@@ -1,0 +1,33 @@
+
+import { createElement, forwardRef } from "react";
+import { IconNode, StaticonProps } from '../types';
+import Icon from '../Icon';
+import { mergeClasses } from '../mergeClasses';
+
+export const __iconNode: IconNode = [["path",{"fill":"#000","fill-rule":"evenodd","d":"M12.051 5.871c-1.61-.71-3.138.234-3.654 1.305a.75.75 0 1 0 1.352.65c.23-.477.956-.91 1.697-.582.595.263 1.161 1.34.252 2.395-.128.148-.335.345-.624.618l-.06.058A19.42 19.42 0 0 0 10 11.333c-.666.732-1.412 1.733-1.493 2.867-.04.553.41.954.892.954h3.606a.75.75 0 0 0 0-1.5h-2.822c.189-.415.513-.857.927-1.313.306-.337.631-.65.935-.938l.083-.078c.261-.248.525-.498.705-.707 1.595-1.85.696-4.094-.783-4.747Zm-7.18 8.562V7.486l-.601.341a.75.75 0 0 1-.741-1.304l1.348-.766a1 1 0 0 1 1.494.87v7.806a.75.75 0 0 1-1.5 0Zm13.24-7.306c-.697 0-1.312.539-1.382 1.104a.75.75 0 0 1-1.489-.185c.177-1.42 1.527-2.42 2.87-2.42 1.53 0 2.74 1.248 2.74 2.765 0 .64-.28 1.262-.64 1.73a3.32 3.32 0 0 1-.268.309c.092.091.178.188.258.287.361.452.65 1.052.65 1.702 0 1.516-1.21 2.764-2.74 2.764-1.343 0-2.693-.998-2.87-2.42a.75.75 0 1 1 1.489-.184c.07.565.685 1.104 1.381 1.104.681 0 1.24-.556 1.24-1.264 0-.212-.102-.49-.322-.765-.218-.273-.489-.46-.703-.531a.75.75 0 0 1 .082-1.446c.145-.03.39-.177.614-.47.22-.286.33-.595.33-.816 0-.708-.56-1.264-1.24-1.264ZM3.75 18.375a.75.75 0 0 1 0-1.5h16.497a.75.75 0 0 1 0 1.5H3.75Z","clip-rule":"evenodd"}]]
+
+/**
+ * @component @name SingleValue
+ * @description Staticon SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPiAgPHBhdGggZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIuMDUxIDUuODcxYy0xLjYxLS43MS0zLjEzOC4yMzQtMy42NTQgMS4zMDVhLjc1Ljc1IDAgMSAwIDEuMzUyLjY1Yy4yMy0uNDc3Ljk1Ni0uOTEgMS42OTctLjU4Mi41OTUuMjYzIDEuMTYxIDEuMzQuMjUyIDIuMzk1LS4xMjguMTQ4LS4zMzUuMzQ1LS42MjQuNjE4bC0uMDYuMDU4QTE5LjQyIDE5LjQyIDAgMCAwIDEwIDExLjMzM2MtLjY2Ni43MzItMS40MTIgMS43MzMtMS40OTMgMi44NjctLjA0LjU1My40MS45NTQuODkyLjk1NGgzLjYwNmEuNzUuNzUgMCAwIDAgMC0xLjVoLTIuODIyYy4xODktLjQxNS41MTMtLjg1Ny45MjctMS4zMTMuMzA2LS4zMzcuNjMxLS42NS45MzUtLjkzOGwuMDgzLS4wNzhjLjI2MS0uMjQ4LjUyNS0uNDk4LjcwNS0uNzA3IDEuNTk1LTEuODUuNjk2LTQuMDk0LS43ODMtNC43NDdabS03LjE4IDguNTYyVjcuNDg2bC0uNjAxLjM0MWEuNzUuNzUgMCAwIDEtLjc0MS0xLjMwNGwxLjM0OC0uNzY2YTEgMSAwIDAgMSAxLjQ5NC44N3Y3LjgwNmEuNzUuNzUgMCAwIDEtMS41IDBabTEzLjI0LTcuMzA2Yy0uNjk3IDAtMS4zMTIuNTM5LTEuMzgyIDEuMTA0YS43NS43NSAwIDAgMS0xLjQ4OS0uMTg1Yy4xNzctMS40MiAxLjUyNy0yLjQyIDIuODctMi40MiAxLjUzIDAgMi43NCAxLjI0OCAyLjc0IDIuNzY1IDAgLjY0LS4yOCAxLjI2Mi0uNjQgMS43M2EzLjMyIDMuMzIgMCAwIDEtLjI2OC4zMDljLjA5Mi4wOTEuMTc4LjE4OC4yNTguMjg3LjM2MS40NTIuNjUgMS4wNTIuNjUgMS43MDIgMCAxLjUxNi0xLjIxIDIuNzY0LTIuNzQgMi43NjQtMS4zNDMgMC0yLjY5My0uOTk4LTIuODctMi40MmEuNzUuNzUgMCAxIDEgMS40ODktLjE4NGMuMDcuNTY1LjY4NSAxLjEwNCAxLjM4MSAxLjEwNC42ODEgMCAxLjI0LS41NTYgMS4yNC0xLjI2NCAwLS4yMTItLjEwMi0uNDktLjMyMi0uNzY1LS4yMTgtLjI3My0uNDg5LS40Ni0uNzAzLS41MzFhLjc1Ljc1IDAgMCAxIC4wODItMS40NDZjLjE0NS0uMDMuMzktLjE3Ny42MTQtLjQ3LjIyLS4yODYuMzMtLjU5NS4zMy0uODE2IDAtLjcwOC0uNTYtMS4yNjQtMS4yNC0xLjI2NFpNMy43NSAxOC4zNzVhLjc1Ljc1IDAgMCAxIDAtMS41aDE2LjQ5N2EuNzUuNzUgMCAwIDEgMCAxLjVIMy43NVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPgo8L3N2Zz4K)
+ *
+ * @param {Object} props - Staticons props and any valid SVG attribute
+ * @returns {JSX.Element} JSX Element
+ */
+const SingleValue = forwardRef<SVGSVGElement, StaticonProps>(
+  ({ className, ...props }, ref) =>
+    createElement(Icon, {
+      ref,
+      iconNode: __iconNode,
+      className: mergeClasses(
+        'staticon-single-value',
+        'staticon-SingleValue',
+        className
+      ),
+      ...props,
+    })
+);
+SingleValue.displayName = 'SingleValue'
+
+export default SingleValue;

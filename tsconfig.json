@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "preserveSymlinks": true,
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "incremental": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noImplicitOverride": true,
+    "strictFunctionTypes": true,
+    "noEmit": true
+  },
+  "exclude": ["**/dist/"]
+}

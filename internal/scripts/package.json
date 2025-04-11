@@ -1,0 +1,20 @@
+{
+  "name": "@staticons/scripts",
+  "description": "Scripts for building packages",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --build tsconfig.build.json"
+  },
+  "bin": {
+    "build-icons": "./src/build-icons.ts"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@staticons/lib": "workspace:*",
+    "@types/minimist": "^1.2.5",
+    "minimist": "^1.2.8"
+  }
+}
