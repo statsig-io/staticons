@@ -1,10 +1,11 @@
 {
   "name": "@staticons/react",
-  "version": "0.0.0-beta.1",
+  "version": "0.0.0-beta.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "pnpm build:icons && tsc --build tsconfig.build.json",
+    "prebuild": "pnpm --dir ../../internal/lib build && pnpm --dir ../../internal/scripts build",
+    "build": "pnpm prebuild && pnpm build:icons && tsc --build tsconfig.build.json",
     "build:icons": "pnpm clean && build-icons --format ./src/formatIcon.ts",
     "clean": "rm -rf dist && rm -rf ./src/icons/*.ts"
   },

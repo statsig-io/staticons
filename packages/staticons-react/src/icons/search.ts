@@ -4,13 +4,13 @@ import { IconNode, StaticonProps } from '../types';
 import Icon from '../Icon';
 import { mergeClasses } from '../mergeClasses';
 
-export const __iconNode: IconNode = [["path",{"fill":"#000","fill-rule":"evenodd","d":"M11.107 3.75a6.857 6.857 0 1 0 3.707 12.626l3.654 3.654a.751.751 0 0 0 1.062-1.063l-3.544-3.543a6.857 6.857 0 0 0-4.88-11.674Zm-5.355 6.857a5.355 5.355 0 1 1 10.71 0 5.355 5.355 0 0 1-10.71 0Z","clip-rule":"evenodd"}]]
+export const __iconNode: IconNode = [["path",{"fill":"#000","fill-rule":"evenodd","d":"M7.317 1.624a5.317 5.317 0 1 0 2.853 9.804l2.764 2.764a.624.624 0 0 0 .883-.883l-2.675-2.675a5.317 5.317 0 0 0-3.825-9.01ZM3.249 6.941a4.068 4.068 0 1 1 8.136 0 4.068 4.068 0 0 1-8.136 0Z","clip-rule":"evenodd"}]]
 
 /**
  * @component @name Search
  * @description Staticon SVG icon component, renders SVG Element with children.
  *
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPiAgPHBhdGggZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTEuMTA3IDMuNzVhNi44NTcgNi44NTcgMCAxIDAgMy43MDcgMTIuNjI2bDMuNjU0IDMuNjU0YS43NTEuNzUxIDAgMCAwIDEuMDYyLTEuMDYzbC0zLjU0NC0zLjU0M2E2Ljg1NyA2Ljg1NyAwIDAgMC00Ljg4LTExLjY3NFptLTUuMzU1IDYuODU3YTUuMzU1IDUuMzU1IDAgMSAxIDEwLjcxIDAgNS4zNTUgNS4zNTUgMCAwIDEtMTAuNzEgMFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPgo8L3N2Zz4K)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMTYgMTYiPiAgPHBhdGggZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNy4zMTcgMS42MjRhNS4zMTcgNS4zMTcgMCAxIDAgMi44NTMgOS44MDRsMi43NjQgMi43NjRhLjYyNC42MjQgMCAwIDAgLjg4My0uODgzbC0yLjY3NS0yLjY3NWE1LjMxNyA1LjMxNyAwIDAgMC0zLjgyNS05LjAxWk0zLjI0OSA2Ljk0MWE0LjA2OCA0LjA2OCAwIDEgMSA4LjEzNiAwIDQuMDY4IDQuMDY4IDAgMCAxLTguMTM2IDBaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+Cg==)
  *
  * @param {Object} props - Staticons props and any valid SVG attribute
  * @returns {JSX.Element} JSX Element

@@ -4,13 +4,13 @@ import { IconNode, StaticonProps } from '../types';
 import Icon from '../Icon';
 import { mergeClasses } from '../mergeClasses';
 
-export const __iconNode: IconNode = [["path",{"fill":"#000","d":"M7.042 11.307a.75.75 0 1 0 1.06-1.06L6.38 8.523h8.394a4.499 4.499 0 1 1 0 8.998h-9.68a.75.75 0 0 0 0 1.5h9.68a5.999 5.999 0 0 0 0-11.998H6.38L8.103 5.3a.75.75 0 0 0-1.06-1.06L4.392 6.89a1.25 1.25 0 0 0 0 1.767l2.65 2.65Z"}]]
+export const __iconNode: IconNode = [["path",{"fill":"#000","d":"M4.087 7.946a.586.586 0 1 0 .83-.83L3.43 5.63h6.314a3.613 3.613 0 1 1 0 7.226H2.118a.571.571 0 1 0 0 1.143h7.626a4.756 4.756 0 0 0 0-9.512H3.431l1.485-1.485a.586.586 0 0 0-.829-.83L1.712 4.549a.723.723 0 0 0 0 1.023l2.375 2.375Z"}]]
 
 /**
  * @component @name Undo
  * @description Staticon SVG icon component, renders SVG Element with children.
  *
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPiAgPHBhdGggZmlsbD0iIzAwMCIgZD0iTTcuMDQyIDExLjMwN2EuNzUuNzUgMCAxIDAgMS4wNi0xLjA2TDYuMzggOC41MjNoOC4zOTRhNC40OTkgNC40OTkgMCAxIDEgMCA4Ljk5OGgtOS42OGEuNzUuNzUgMCAwIDAgMCAxLjVoOS42OGE1Ljk5OSA1Ljk5OSAwIDAgMCAwLTExLjk5OEg2LjM4TDguMTAzIDUuM2EuNzUuNzUgMCAwIDAtMS4wNi0xLjA2TDQuMzkyIDYuODlhMS4yNSAxLjI1IDAgMCAwIDAgMS43NjdsMi42NSAyLjY1WiIvPgo8L3N2Zz4K)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMTYgMTYiPiAgPHBhdGggZmlsbD0iIzAwMCIgZD0iTTQuMDg3IDcuOTQ2YS41ODYuNTg2IDAgMSAwIC44My0uODNMMy40MyA1LjYzaDYuMzE0YTMuNjEzIDMuNjEzIDAgMSAxIDAgNy4yMjZIMi4xMThhLjU3MS41NzEgMCAxIDAgMCAxLjE0M2g3LjYyNmE0Ljc1NiA0Ljc1NiAwIDAgMCAwLTkuNTEySDMuNDMxbDEuNDg1LTEuNDg1YS41ODYuNTg2IDAgMCAwLS44MjktLjgzTDEuNzEyIDQuNTQ5YS43MjMuNzIzIDAgMCAwIDAgMS4wMjNsMi4zNzUgMi4zNzVaIi8+Cjwvc3ZnPgo=)
  *
  * @param {Object} props - Staticons props and any valid SVG attribute
  * @returns {JSX.Element} JSX Element
