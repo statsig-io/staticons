@@ -4,13 +4,13 @@ import { IconNode, StaticonProps } from '../types';
 import Icon from '../Icon';
 import { mergeClasses } from '../mergeClasses';
 
-export const __iconNode: IconNode = [["path",{"fill":"#000","fill-rule":"evenodd","d":"M14.25 8a6.25 6.25 0 1 0-12.5 0 6.25 6.25 0 0 0 12.5 0Zm1.25 0a7.5 7.5 0 1 0-15 0 7.5 7.5 0 0 0 15 0ZM8 11.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z","clip-rule":"evenodd"}]]
+export const __iconNode: IconNode = [["path",{"fill-rule":"evenodd","d":"M16.75 10a6.75 6.75 0 1 1-13.5 0 6.75 6.75 0 0 1 13.5 0ZM18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-8 3.75a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5Z","clip-rule":"evenodd"}]]
 
 /**
  * @component @name RadioSelected
  * @description Staticon SVG icon component, renders SVG Element with children.
  *
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMTYgMTYiPiAgPHBhdGggZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTQuMjUgOGE2LjI1IDYuMjUgMCAxIDAtMTIuNSAwIDYuMjUgNi4yNSAwIDAgMCAxMi41IDBabTEuMjUgMGE3LjUgNy41IDAgMSAwLTE1IDAgNy41IDcuNSAwIDAgMCAxNSAwWk04IDExLjVhMy41IDMuNSAwIDEgMCAwLTcgMy41IDMuNSAwIDAgMCAwIDdaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+Cg==)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjAgMjAiPiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTYuNzUgMTBhNi43NSA2Ljc1IDAgMSAxLTEzLjUgMCA2Ljc1IDYuNzUgMCAwIDEgMTMuNSAwWk0xOCAxMGE4IDggMCAxIDEtMTYgMCA4IDggMCAwIDEgMTYgMFptLTggMy43NWEzLjc1IDMuNzUgMCAxIDAgMC03LjUgMy43NSAzLjc1IDAgMCAwIDAgNy41WiIgY2xpcC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=)
  *
  * @param {Object} props - Staticons props and any valid SVG attribute
  * @returns {JSX.Element} JSX Element

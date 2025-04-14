@@ -4,13 +4,13 @@ import { IconNode, StaticonProps } from '../types';
 import Icon from '../Icon';
 import { mergeClasses } from '../mergeClasses';
 
-export const __iconNode: IconNode = [["path",{"fill":"#000","fill-rule":"evenodd","d":"M8 2.25c-1.82 0-3.441.844-4.496 2.165H4.98a.625.625 0 1 1 0 1.25H2.185a.775.775 0 0 1-.775-.775V2.095a.625.625 0 1 1 1.25 0v1.38A7 7 0 1 1 1 8v-.22a.625.625 0 1 1 1.25.038V8A5.75 5.75 0 1 0 8 2.25Zm.618 2.557a.625.625 0 1 0-1.25 0v3.38c0 .274.176.507.421.591l2.819 1.417a.625.625 0 1 0 .561-1.117L8.62 7.796v-2.99Z","clip-rule":"evenodd"}]]
+export const __iconNode: IconNode = [["path",{"fill-rule":"evenodd","d":"M10 3.751a6.238 6.238 0 0 0-4.948 2.432h1.692a.625.625 0 1 1 0 1.25H3.819a.875.875 0 0 1-.875-.875V3.634a.625.625 0 0 1 1.25 0v1.62A7.499 7.499 0 1 1 2.501 10v-.047l.001-.186a.625.625 0 1 1 1.25.037V10A6.249 6.249 0 1 0 10 3.75Zm.62 2.722a.625.625 0 1 0-1.25 0v3.704c0 .275.177.509.424.592l3.093 1.554a.625.625 0 1 0 .56-1.117l-2.827-1.42V6.472Z","clip-rule":"evenodd"}]]
 
 /**
  * @component @name History
  * @description Staticon SVG icon component, renders SVG Element with children.
  *
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMTYgMTYiPiAgPHBhdGggZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOCAyLjI1Yy0xLjgyIDAtMy40NDEuODQ0LTQuNDk2IDIuMTY1SDQuOThhLjYyNS42MjUgMCAxIDEgMCAxLjI1SDIuMTg1YS43NzUuNzc1IDAgMCAxLS43NzUtLjc3NVYyLjA5NWEuNjI1LjYyNSAwIDEgMSAxLjI1IDB2MS4zOEE3IDcgMCAxIDEgMSA4di0uMjJhLjYyNS42MjUgMCAxIDEgMS4yNS4wMzhWOEE1Ljc1IDUuNzUgMCAxIDAgOCAyLjI1Wm0uNjE4IDIuNTU3YS42MjUuNjI1IDAgMSAwLTEuMjUgMHYzLjM4YzAgLjI3NC4xNzYuNTA3LjQyMS41OTFsMi44MTkgMS40MTdhLjYyNS42MjUgMCAxIDAgLjU2MS0xLjExN0w4LjYyIDcuNzk2di0yLjk5WiIgY2xpcC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjAgMjAiPiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTAgMy43NTFhNi4yMzggNi4yMzggMCAwIDAtNC45NDggMi40MzJoMS42OTJhLjYyNS42MjUgMCAxIDEgMCAxLjI1SDMuODE5YS44NzUuODc1IDAgMCAxLS44NzUtLjg3NVYzLjYzNGEuNjI1LjYyNSAwIDAgMSAxLjI1IDB2MS42MkE3LjQ5OSA3LjQ5OSAwIDEgMSAyLjUwMSAxMHYtLjA0N2wuMDAxLS4xODZhLjYyNS42MjUgMCAxIDEgMS4yNS4wMzdWMTBBNi4yNDkgNi4yNDkgMCAxIDAgMTAgMy43NVptLjYyIDIuNzIyYS42MjUuNjI1IDAgMSAwLTEuMjUgMHYzLjcwNGMwIC4yNzUuMTc3LjUwOS40MjQuNTkybDMuMDkzIDEuNTU0YS42MjUuNjI1IDAgMSAwIC41Ni0xLjExN2wtMi44MjctMS40MlY2LjQ3MloiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPgo8L3N2Zz4K)
  *
  * @param {Object} props - Staticons props and any valid SVG attribute
  * @returns {JSX.Element} JSX Element

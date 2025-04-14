@@ -4,13 +4,13 @@ import { IconNode, StaticonProps } from '../types';
 import Icon from '../Icon';
 import { mergeClasses } from '../mergeClasses';
 
-export const __iconNode: IconNode = [["path",{"fill":"#000","d":"m7.813 10.916-4.874-5.5A.25.25 0 0 1 3.126 5h9.747a.25.25 0 0 1 .187.416l-4.873 5.5a.25.25 0 0 1-.374 0Z"}]]
+export const __iconNode: IconNode = [["path",{"d":"m9.619 13.199-4.875-5.75a.5.5 0 0 1 .381-.824h9.75a.5.5 0 0 1 .381.823l-4.874 5.75a.5.5 0 0 1-.763 0Z"}]]
 
 /**
  * @component @name TriangleDown
  * @description Staticon SVG icon component, renders SVG Element with children.
  *
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMTYgMTYiPiAgPHBhdGggZmlsbD0iIzAwMCIgZD0ibTcuODEzIDEwLjkxNi00Ljg3NC01LjVBLjI1LjI1IDAgMCAxIDMuMTI2IDVoOS43NDdhLjI1LjI1IDAgMCAxIC4xODcuNDE2bC00Ljg3MyA1LjVhLjI1LjI1IDAgMCAxLS4zNzQgMFoiLz4KPC9zdmc+Cg==)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjAgMjAiPiAgPHBhdGggZD0ibTkuNjE5IDEzLjE5OS00Ljg3NS01Ljc1YS41LjUgMCAwIDEgLjM4MS0uODI0aDkuNzVhLjUuNSAwIDAgMSAuMzgxLjgyM2wtNC44NzQgNS43NWEuNS41IDAgMCAxLS43NjMgMFoiLz4KPC9zdmc+Cg==)
  *
  * @param {Object} props - Staticons props and any valid SVG attribute
  * @returns {JSX.Element} JSX Element

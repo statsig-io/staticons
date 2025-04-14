@@ -1,0 +1,33 @@
+
+import { createElement, forwardRef } from "react";
+import { IconNode, StaticonProps } from '../types';
+import Icon from '../Icon';
+import { mergeClasses } from '../mergeClasses';
+
+export const __iconNode: IconNode = [["path",{"fill-rule":"evenodd","d":"M14.042 15.407A6.72 6.72 0 0 1 10 16.75a6.72 6.72 0 0 1-3.974-1.293c.494-1.803 1.94-3.49 4.027-3.49 2.066 0 3.489 1.654 3.989 3.44Zm1.007-.927c-.506-1.32-1.47-2.612-2.864-3.285a3.482 3.482 0 1 0-4.33.032c-1.388.693-2.347 1.996-2.845 3.319a6.75 6.75 0 1 1 10.04-.066ZM18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-8-3.747a2.232 2.232 0 1 0 0 4.463 2.232 2.232 0 0 0 0-4.463Z","clip-rule":"evenodd"}],["circle",{"cx":"14.166","cy":"5.833","r":"5"}],["path",{"d":"M16.01 4.481c0 .247-.05.46-.153.641-.102.18-.242.328-.417.443a1.86 1.86 0 0 1-.586.253v.022c.43.054.755.185.977.395.225.21.337.491.337.843 0 .312-.077.592-.23.838-.152.247-.386.44-.704.583-.317.141-.726.212-1.226.212-.296 0-.572-.024-.828-.073a3.266 3.266 0 0 1-.718-.216v-.964a3.248 3.248 0 0 0 1.425.356c.405 0 .688-.07.85-.209.163-.142.245-.34.245-.593a.618.618 0 0 0-.114-.377c-.075-.103-.207-.181-.395-.235-.186-.054-.446-.08-.78-.08h-.407v-.868h.414c.33 0 .58-.03.75-.092.174-.063.291-.149.352-.256a.733.733 0 0 0 .096-.374.58.58 0 0 0-.176-.447c-.117-.107-.313-.16-.586-.16-.171 0-.327.021-.469.065-.14.042-.265.093-.377.154a3.452 3.452 0 0 0-.297.172l-.523-.78c.21-.151.455-.277.736-.377.283-.1.62-.15 1.01-.15.552 0 .99.11 1.311.333.323.222.484.536.484.941Z"}]]
+
+/**
+ * @component @name AccountBubble
+ * @description Staticon SVG icon component, renders SVG Element with children.
+ *
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjAgMjAiPiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTQuMDQyIDE1LjQwN0E2LjcyIDYuNzIgMCAwIDEgMTAgMTYuNzVhNi43MiA2LjcyIDAgMCAxLTMuOTc0LTEuMjkzYy40OTQtMS44MDMgMS45NC0zLjQ5IDQuMDI3LTMuNDkgMi4wNjYgMCAzLjQ4OSAxLjY1NCAzLjk4OSAzLjQ0Wm0xLjAwNy0uOTI3Yy0uNTA2LTEuMzItMS40Ny0yLjYxMi0yLjg2NC0zLjI4NWEzLjQ4MiAzLjQ4MiAwIDEgMC00LjMzLjAzMmMtMS4zODguNjkzLTIuMzQ3IDEuOTk2LTIuODQ1IDMuMzE5YTYuNzUgNi43NSAwIDEgMSAxMC4wNC0uMDY2Wk0xOCAxMGE4IDggMCAxIDEtMTYgMCA4IDggMCAwIDEgMTYgMFptLTgtMy43NDdhMi4yMzIgMi4yMzIgMCAxIDAgMCA0LjQ2MyAyLjIzMiAyLjIzMiAwIDAgMCAwLTQuNDYzWiIgY2xpcC1ydWxlPSJldmVub2RkIi8+CiAgPGNpcmNsZSBjeD0iMTQuMTY2IiBjeT0iNS44MzMiIHI9IjUiLz4KICA8cGF0aCBkPSJNMTYuMDEgNC40ODFjMCAuMjQ3LS4wNS40Ni0uMTUzLjY0MS0uMTAyLjE4LS4yNDIuMzI4LS40MTcuNDQzYTEuODYgMS44NiAwIDAgMS0uNTg2LjI1M3YuMDIyYy40My4wNTQuNzU1LjE4NS45NzcuMzk1LjIyNS4yMS4zMzcuNDkxLjMzNy44NDMgMCAuMzEyLS4wNzcuNTkyLS4yMy44MzgtLjE1Mi4yNDctLjM4Ni40NC0uNzA0LjU4My0uMzE3LjE0MS0uNzI2LjIxMi0xLjIyNi4yMTItLjI5NiAwLS41NzItLjAyNC0uODI4LS4wNzNhMy4yNjYgMy4yNjYgMCAwIDEtLjcxOC0uMjE2di0uOTY0YTMuMjQ4IDMuMjQ4IDAgMCAwIDEuNDI1LjM1NmMuNDA1IDAgLjY4OC0uMDcuODUtLjIwOS4xNjMtLjE0Mi4yNDUtLjM0LjI0NS0uNTkzYS42MTguNjE4IDAgMCAwLS4xMTQtLjM3N2MtLjA3NS0uMTAzLS4yMDctLjE4MS0uMzk1LS4yMzUtLjE4Ni0uMDU0LS40NDYtLjA4LS43OC0uMDhoLS40MDd2LS44NjhoLjQxNGMuMzMgMCAuNTgtLjAzLjc1LS4wOTIuMTc0LS4wNjMuMjkxLS4xNDkuMzUyLS4yNTZhLjczMy43MzMgMCAwIDAgLjA5Ni0uMzc0LjU4LjU4IDAgMCAwLS4xNzYtLjQ0N2MtLjExNy0uMTA3LS4zMTMtLjE2LS41ODYtLjE2LS4xNzEgMC0uMzI3LjAyMS0uNDY5LjA2NS0uMTQuMDQyLS4yNjUuMDkzLS4zNzcuMTU0YTMuNDUyIDMuNDUyIDAgMCAwLS4yOTcuMTcybC0uNTIzLS43OGMuMjEtLjE1MS40NTUtLjI3Ny43MzYtLjM3Ny4yODMtLjEuNjItLjE1IDEuMDEtLjE1LjU1MiAwIC45OS4xMSAxLjMxMS4zMzMuMzIzLjIyMi40ODQuNTM2LjQ4NC45NDFaIi8+Cjwvc3ZnPgo=)
+ *
+ * @param {Object} props - Staticons props and any valid SVG attribute
+ * @returns {JSX.Element} JSX Element
+ */
+const AccountBubble = forwardRef<SVGSVGElement, StaticonProps>(
+  ({ className, ...props }, ref) =>
+    createElement(Icon, {
+      ref,
+      iconNode: __iconNode,
+      className: mergeClasses(
+        'staticon-account-bubble',
+        'staticon-AccountBubble',
+        className
+      ),
+      ...props,
+    })
+);
+AccountBubble.displayName = 'AccountBubble'
+
+export default AccountBubble;

@@ -4,13 +4,13 @@ import { IconNode, StaticonProps } from '../types';
 import Icon from '../Icon';
 import { mergeClasses } from '../mergeClasses';
 
-export const __iconNode: IconNode = [["path",{"fill":"#000","d":"M4.087 7.946a.586.586 0 1 0 .83-.83L3.43 5.63h6.314a3.613 3.613 0 1 1 0 7.226H2.118a.571.571 0 1 0 0 1.143h7.626a4.756 4.756 0 0 0 0-9.512H3.431l1.485-1.485a.586.586 0 0 0-.829-.83L1.712 4.549a.723.723 0 0 0 0 1.023l2.375 2.375Z"}]]
+export const __iconNode: IconNode = [["path",{"fill-rule":"evenodd","d":"M5.655 9.439a.643.643 0 1 0 .909-.91L4.989 6.956h6.976a3.91 3.91 0 1 1 0 7.818H3.55a.626.626 0 0 0 0 1.253h8.415a5.162 5.162 0 1 0 0-10.324H4.989l1.575-1.575a.643.643 0 1 0-.91-.91l-2.55 2.55a.793.793 0 0 0 0 1.122l2.55 2.55Z","clip-rule":"evenodd"}]]
 
 /**
  * @component @name Undo
  * @description Staticon SVG icon component, renders SVG Element with children.
  *
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMTYgMTYiPiAgPHBhdGggZmlsbD0iIzAwMCIgZD0iTTQuMDg3IDcuOTQ2YS41ODYuNTg2IDAgMSAwIC44My0uODNMMy40MyA1LjYzaDYuMzE0YTMuNjEzIDMuNjEzIDAgMSAxIDAgNy4yMjZIMi4xMThhLjU3MS41NzEgMCAxIDAgMCAxLjE0M2g3LjYyNmE0Ljc1NiA0Ljc1NiAwIDAgMCAwLTkuNTEySDMuNDMxbDEuNDg1LTEuNDg1YS41ODYuNTg2IDAgMCAwLS44MjktLjgzTDEuNzEyIDQuNTQ5YS43MjMuNzIzIDAgMCAwIDAgMS4wMjNsMi4zNzUgMi4zNzVaIi8+Cjwvc3ZnPgo=)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjAgMjAiPiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNS42NTUgOS40MzlhLjY0My42NDMgMCAxIDAgLjkwOS0uOTFMNC45ODkgNi45NTZoNi45NzZhMy45MSAzLjkxIDAgMSAxIDAgNy44MThIMy41NWEuNjI2LjYyNiAwIDAgMCAwIDEuMjUzaDguNDE1YTUuMTYyIDUuMTYyIDAgMSAwIDAtMTAuMzI0SDQuOTg5bDEuNTc1LTEuNTc1YS42NDMuNjQzIDAgMSAwLS45MS0uOTFsLTIuNTUgMi41NWEuNzkzLjc5MyAwIDAgMCAwIDEuMTIybDIuNTUgMi41NVoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPgo8L3N2Zz4K)
  *
  * @param {Object} props - Staticons props and any valid SVG attribute
  * @returns {JSX.Element} JSX Element

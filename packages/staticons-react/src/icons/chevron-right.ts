@@ -4,13 +4,13 @@ import { IconNode, StaticonProps } from '../types';
 import Icon from '../Icon';
 import { mergeClasses } from '../mergeClasses';
 
-export const __iconNode: IconNode = [["path",{"fill":"#000","fill-rule":"evenodd","d":"M5.931 12.299c.235.254.63.27.884.035l3.861-3.566a1.045 1.045 0 0 0 0-1.536L6.815 3.666a.625.625 0 0 0-.848.918L9.665 8l-3.698 3.416a.625.625 0 0 0-.036.883Z","clip-rule":"evenodd"}]]
+export const __iconNode: IconNode = [["path",{"fill-rule":"evenodd","d":"M7.43 14.799c.234.253.63.269.883.035l4.34-4.008a1.125 1.125 0 0 0 0-1.653l-4.34-4.008a.625.625 0 0 0-.848.918L11.705 10l-4.24 3.916a.625.625 0 0 0-.035.884Z","clip-rule":"evenodd"}]]
 
 /**
  * @component @name ChevronRight
  * @description Staticon SVG icon component, renders SVG Element with children.
  *
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMTYgMTYiPiAgPHBhdGggZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNS45MzEgMTIuMjk5Yy4yMzUuMjU0LjYzLjI3Ljg4NC4wMzVsMy44NjEtMy41NjZhMS4wNDUgMS4wNDUgMCAwIDAgMC0xLjUzNkw2LjgxNSAzLjY2NmEuNjI1LjYyNSAwIDAgMC0uODQ4LjkxOEw5LjY2NSA4bC0zLjY5OCAzLjQxNmEuNjI1LjYyNSAwIDAgMC0uMDM2Ljg4M1oiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPgo8L3N2Zz4K)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjAgMjAiPiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNy40MyAxNC43OTljLjIzNC4yNTMuNjMuMjY5Ljg4My4wMzVsNC4zNC00LjAwOGExLjEyNSAxLjEyNSAwIDAgMCAwLTEuNjUzbC00LjM0LTQuMDA4YS42MjUuNjI1IDAgMCAwLS44NDguOTE4TDExLjcwNSAxMGwtNC4yNCAzLjkxNmEuNjI1LjYyNSAwIDAgMC0uMDM1Ljg4NFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPgo8L3N2Zz4K)
  *
  * @param {Object} props - Staticons props and any valid SVG attribute
  * @returns {JSX.Element} JSX Element

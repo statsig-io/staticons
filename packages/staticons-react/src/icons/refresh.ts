@@ -4,13 +4,13 @@ import { IconNode, StaticonProps } from '../types';
 import Icon from '../Icon';
 import { mergeClasses } from '../mergeClasses';
 
-export const __iconNode: IconNode = [["path",{"fill":"#000","d":"M12.839 4.242a6.126 6.126 0 1 0 1.288 3.667v-.101a.624.624 0 1 1 1.247-.038c.002.06.001.132 0 .184V8a7.375 7.375 0 1 1-1.684-4.692V1.249a.624.624 0 1 1 1.248 0v3.467a.774.774 0 0 1-.774.774h-3.467a.624.624 0 0 1 0-1.248h2.142Z"}]]
+export const __iconNode: IconNode = [["path",{"fill-rule":"evenodd","d":"M15.062 6.126A6.375 6.375 0 1 0 16.374 10v-.199a.625.625 0 1 1 1.25-.038c.002.061 0 .135 0 .19V10a7.624 7.624 0 1 1-1.702-4.803V3.001a.625.625 0 0 1 1.25 0v3.6a.775.775 0 0 1-.775.775h-3.6a.625.625 0 1 1 0-1.25h2.265Z","clip-rule":"evenodd"}]]
 
 /**
  * @component @name Refresh
  * @description Staticon SVG icon component, renders SVG Element with children.
  *
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMTYgMTYiPiAgPHBhdGggZmlsbD0iIzAwMCIgZD0iTTEyLjgzOSA0LjI0MmE2LjEyNiA2LjEyNiAwIDEgMCAxLjI4OCAzLjY2N3YtLjEwMWEuNjI0LjYyNCAwIDEgMSAxLjI0Ny0uMDM4Yy4wMDIuMDYuMDAxLjEzMiAwIC4xODRWOGE3LjM3NSA3LjM3NSAwIDEgMS0xLjY4NC00LjY5MlYxLjI0OWEuNjI0LjYyNCAwIDEgMSAxLjI0OCAwdjMuNDY3YS43NzQuNzc0IDAgMCAxLS43NzQuNzc0aC0zLjQ2N2EuNjI0LjYyNCAwIDAgMSAwLTEuMjQ4aDIuMTQyWiIvPgo8L3N2Zz4K)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjAgMjAiPiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUuMDYyIDYuMTI2QTYuMzc1IDYuMzc1IDAgMSAwIDE2LjM3NCAxMHYtLjE5OWEuNjI1LjYyNSAwIDEgMSAxLjI1LS4wMzhjLjAwMi4wNjEgMCAuMTM1IDAgLjE5VjEwYTcuNjI0IDcuNjI0IDAgMSAxLTEuNzAyLTQuODAzVjMuMDAxYS42MjUuNjI1IDAgMCAxIDEuMjUgMHYzLjZhLjc3NS43NzUgMCAwIDEtLjc3NS43NzVoLTMuNmEuNjI1LjYyNSAwIDEgMSAwLTEuMjVoMi4yNjVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+Cg==)
  *
  * @param {Object} props - Staticons props and any valid SVG attribute
  * @returns {JSX.Element} JSX Element

@@ -4,13 +4,13 @@ import { IconNode, StaticonProps } from '../types';
 import Icon from '../Icon';
 import { mergeClasses } from '../mergeClasses';
 
-export const __iconNode: IconNode = [["path",{"fill":"#000","fill-rule":"evenodd","d":"M14.808 3.175c.248.24.256.635.016.884l-8.392 8.704a.777.777 0 0 1-1.126-.008L1.169 8.342a.625.625 0 1 1 .912-.855l3.797 4.05 8.046-8.346a.625.625 0 0 1 .884-.016Z","clip-rule":"evenodd"}]]
+export const __iconNode: IconNode = [["path",{"d":"M17.442 4.889a.625.625 0 0 1 0 .883L8.53 14.67c-.44.438-1.15.438-1.59 0l-4.382-4.375a.625.625 0 1 1 .884-.884l4.293 4.286 8.823-8.808a.625.625 0 0 1 .884 0Z"}]]
 
 /**
  * @component @name Checkmark
  * @description Staticon SVG icon component, renders SVG Element with children.
  *
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMTYgMTYiPiAgPHBhdGggZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTQuODA4IDMuMTc1Yy4yNDguMjQuMjU2LjYzNS4wMTYuODg0bC04LjM5MiA4LjcwNGEuNzc3Ljc3NyAwIDAgMS0xLjEyNi0uMDA4TDEuMTY5IDguMzQyYS42MjUuNjI1IDAgMSAxIC45MTItLjg1NWwzLjc5NyA0LjA1IDguMDQ2LTguMzQ2YS42MjUuNjI1IDAgMCAxIC44ODQtLjAxNloiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPgo8L3N2Zz4K)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjAgMjAiPiAgPHBhdGggZD0iTTE3LjQ0MiA0Ljg4OWEuNjI1LjYyNSAwIDAgMSAwIC44ODNMOC41MyAxNC42N2MtLjQ0LjQzOC0xLjE1LjQzOC0xLjU5IDBsLTQuMzgyLTQuMzc1YS42MjUuNjI1IDAgMSAxIC44ODQtLjg4NGw0LjI5MyA0LjI4NiA4LjgyMy04LjgwOGEuNjI1LjYyNSAwIDAgMSAuODg0IDBaIi8+Cjwvc3ZnPgo=)
  *
  * @param {Object} props - Staticons props and any valid SVG attribute
  * @returns {JSX.Element} JSX Element
