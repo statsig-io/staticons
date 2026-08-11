@@ -9,7 +9,7 @@
     "build:icons": "pnpm clean && build-icons --format ./src/formatIcon.ts",
     "clean": "rm -rf dist && rm -rf ./src/icons/*.ts"
   },
-  "author": "Statsig <support@statsig.io>",
+  "author": "Statsig <support@statsig.com>",
   "license": "ISC",
   "description": "Statsig Icon library for React",
   "devDependencies": {
