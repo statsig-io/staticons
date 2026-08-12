@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/statsig-io/staticons.git"
   },
-  "author": "kenny@statsig.com",
+  "author": "Statsig <support@statsig.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/statsig-io/staticons/issues"
